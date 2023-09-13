@@ -1,13 +1,17 @@
 import Logo from "./Logo/Logo";
 import Nav from "./Nav/Nav";
 import Menu from "./Menu/Menu";
+import MainPart from "./Main/MainPart";
 function Header() {
-    return <main>
-        <header>
+  return (
+    <main>
+      <header>
         <Logo />
         <Nav />
         <Menu />
-    </header>
+      </header>
+      <MainPart />
     </main>
+  );
 }
 export default Header;
