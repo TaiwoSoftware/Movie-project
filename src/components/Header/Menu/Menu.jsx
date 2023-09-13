@@ -1,8 +1,8 @@
 import menuImage from '../images/Menu.svg';
 const Menu = () => {
     return (
-        <div>
-            Sign In 
+        <div className='menu'>
+            <p>Sign In </p>
             <img src={menuImage} alt='menu' />
         </div>
     );

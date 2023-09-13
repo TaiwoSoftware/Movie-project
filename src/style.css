@@ -1,0 +1,63 @@
+html{
+    max-width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+}
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 1rem;
+}
+
+nav {
+    padding: .2rem 4rem;
+    margin: 0;
+}
+
+nav input{
+    background: transparent;
+    padding:.7rem 5rem;
+    border: none;
+    position: relative;
+    margin-top: .4rem;
+    margin-left: -2rem;
+    border: 1px solid white;
+    color: white;
+}
+
+nav input:focus {
+    border: none;
+}
+
+nav button {
+    background: transparent;
+    border: none;
+    padding: .6rem;
+    position: absolute;
+    left: 51.5rem;
+    top: 1.5rem;
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+    position: relative;
+}
+
+.menu p{
+    color: white;
+    color: 100%;
+    left: -4rem;
+    position: absolute;
+}
+
+main {
+    background-color: black;
+    color: white;
+}

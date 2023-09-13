@@ -43,9 +43,9 @@
 // Getting Started
 // Welcome to version 3 of The Movie Database (TMDB) API. This is where you will find the definitive list of currently available methods for our movie, tv, actor and image API.
 import Header from './components/Header/Header'
-import Body from './components/Body/Body'
+import Body from './components/Body/Main'
 import Footer from './components/Footer/Footer'
-import './'
+import './style.css'
 function App() {
     return (
         <>
