@@ -57,6 +57,12 @@ nav button {
 }
 
 main {
-    background-color: black;
+    background-image: url(./components/images/DSC_0586.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
     color: white;
+}
+
+.main-part{
+    padding: 1rem 3rem;
 }

@@ -1,6 +1,6 @@
 const MainPart = () => {
     return (
-        <div>
+        <div className="main-part">
             <h1>Main part</h1>
         </div>
     );
