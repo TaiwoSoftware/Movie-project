@@ -35,10 +35,6 @@ nav input:focus {
     border: none;
 }
 
-input::placeholder{
-    color: white;
-}
-
 nav button {
     background: transparent;
     border: none;
@@ -72,38 +68,7 @@ main {
     padding: 1rem 3rem;
 }
 
-.main-part h1{
-    margin-top: 5rem;
-    font-size: 3rem;
-}
-
-.main-part .span {
-    margin-top: 1rem;
+.main-part-h1{
+    width: 50%;
     display: block;
-}
-
-.imbd{
-    margin-right: 2rem;
-}
-
-.p-span{
-    display: block;
-}
-
-.main-part button {
-    background-color: #e11d48;
-    display: block;
-    padding: .5rem 3rem;
-    color: white;
-    border: none;
-    margin-top: 2rem;
-    position: relative;
-    border-radius: .5rem;
-    margin-bottom: 4rem;
-}
-
-.main-part button img{
-    position: absolute;
-    left: 1rem;
-    top: .3rem;
 }
