@@ -1,12 +1,14 @@
+import { useState } from "react";
+
 const MainPart = () => {
   const apiKey =
-    "https://api.themoviedb.org/3/discover/movie?api_key=78bcd9519ba51e4395c843281cef3d37";
+    'https://api.themoviedb.org/3/discover/movie?api_key=78bcd9519ba51e4395c843281cef3d37';
   const result = async () => {
     try {
       const res = await fetch(apiKey);
       const data = await res.json();
 
-      console.log(data);
+      const {} = useState
     } catch (error) {
       console.log(error, "Error");
     }
