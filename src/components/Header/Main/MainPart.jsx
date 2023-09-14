@@ -1,4 +1,3 @@
-import { useState } from "react";
 
 const MainPart = () => {
   const apiKey =
@@ -8,7 +7,9 @@ const MainPart = () => {
       const res = await fetch(apiKey);
       const data = await res.json();
 
-      const {} = useState
+      console.log(data);
+      const {page, results } = data;
+      console.log(results);
     } catch (error) {
       console.log(error, "Error");
     }
