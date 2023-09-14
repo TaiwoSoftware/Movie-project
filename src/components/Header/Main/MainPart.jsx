@@ -1,6 +1,6 @@
 const MainPart = () => {
   const apiKey =
-    "https://api.themoviedb.org/3/movie/157336?api_key=78bcd9519ba51e4395c843281cef3d37";
+    "https://api.themoviedb.org/3/discover/movie?api_key=78bcd9519ba51e4395c843281cef3d37";
   const result = async () => {
     try {
       const res = await fetch(apiKey);
@@ -15,7 +15,7 @@ const MainPart = () => {
   result();
   return (
     <div className="main-part">
-      <h1>Main part</h1>
+      <h1>Adventure</h1>
     </div>
   );
 };
