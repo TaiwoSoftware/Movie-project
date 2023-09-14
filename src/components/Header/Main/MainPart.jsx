@@ -7,13 +7,12 @@ const MainPart = () => {
       const data = await res.json();
       
       console.log(data);
-
       const { page, results } = data;
-      const [ result1, result2, result3  ] = results;
+      const mappedResult = results.map((result) => {
+        const {backdrop_path, title} = result;
+        console.log(backdrop_path);
+      })
 
-      console.log(result1);
-      console.log(result2);
-      console.log(result3);
     } catch (error) {
       console.log(error, "Error");
     }
