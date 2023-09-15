@@ -244,24 +244,28 @@ main {
     position: absolute;
     top: 131rem;
     left: 22rem;
+    cursor: pointer;
 }
 
 .favicon7 {
     position: absolute;
     top: 131rem;
     left: 46.5rem;
+    cursor: pointer;
 }
 
 .favicon8 {
     position: absolute;
     top: 131rem;
     left: 71.5rem;
+    cursor: pointer;
 }
 
 .favicon9 {
     position: absolute;
     top: 174.5rem;
     left: 22rem;
+    cursor: pointer;
 }
 
 .firstimagestyle{
@@ -314,3 +318,67 @@ main {
     font-weight: 600;
     color: gray;
 }
+
+
+/* Responsiveness */
+@media (max-width:1030px){
+    nav button{
+        left: 43rem;
+    }
+
+    .col img{
+        margin-left: 3rem;
+    }
+
+    .favicon{
+        left: 15rem;
+    }
+
+    .favicon1{
+        left: 36rem;
+    }
+
+    .favicon2{
+        left: 57rem;
+    }
+
+    .favicon3{
+        top: 84rem;
+        left: 15rem;
+    }
+
+    .favicon4{
+        top: 84rem;
+        left: 36rem;
+    }
+    
+    .favicon5{
+        top:84rem;
+        left: 57rem;
+    }
+
+    .favicon6{
+        top:122rem;
+        left:15rem ;
+    }
+
+    .favicon7 {
+        top: 122rem;
+        left: 36rem;
+    }
+
+    .favicon8{
+        top: 122rem;
+        left: 57rem;
+    }
+
+    .favicon9{
+        top: 161rem;
+        left:15rem ;
+    }
+
+    .copywrite p{
+        margin-left: 20rem;
+    }
+}
+/* End-Responsiveness */

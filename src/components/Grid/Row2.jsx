@@ -1,4 +1,7 @@
 import Col from "./Col";
+// import image1 from '../images/move1.jpeg';
+// import image2 from '../images/movie2.jpeg'
+// import image3 from '../images/movie3.jpeg'
 import image1 from "https://image.tmdb.org/t/p/w500/kdPMUMJzyYAc4roD52qavX0nLIC.jpg";
 import image2 from "https://image.tmdb.org/t/p/w500/iuFNMS8U5cb6xfzi51Dbkovj7vM.jpg";
 import image3 from "https://image.tmdb.org/t/p/w500/rktDFPbfHfUbArZ6OOOKsXcv0Bm.jpg";
