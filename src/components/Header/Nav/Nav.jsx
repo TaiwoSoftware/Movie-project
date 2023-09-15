@@ -1,4 +1,3 @@
-import { useState } from "react";
 import searchButton from "../images/Search.svg";
 import loading from "../images/loading.gif";
 const Nav = () => {
@@ -13,7 +12,7 @@ const Nav = () => {
       document.body.appendChild(searchdeatils);
       searchdeatils.classList.add("search-p");
       changeImageSrc.setAttribute("src", loading);
-      changeImageSrc.classList.toggle('loading')
+      changeImageSrc.classList.toggle("loading");
     }
   }
   return (

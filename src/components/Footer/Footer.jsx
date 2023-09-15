@@ -1,7 +1,14 @@
-function Footer() {
-    return <footer>
-        <h3>This is the footer</h3>
-    </footer>
+import CopywriteDetails from "./CopywriteDetails";
+import FooterDetails from "./FooterDetails";
+import SocialMediaIcon from "./SocialMediaIcon";
+const Footer = () => {
+    return (
+        <footer>
+            <SocialMediaIcon />
+            <FooterDetails />
+            <CopywriteDetails />
+        </footer>
+    );
 }
 
 export default Footer;

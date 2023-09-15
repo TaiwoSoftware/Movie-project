@@ -1,8 +1,7 @@
-
-import Button from './Button';
-import Details from './Details';
-import ImbdLogo from './ImbdLogo';
-import RottenLogo from './RottenLogo';
+import Button from "./Button";
+import Details from "./Details";
+import ImbdLogo from "./ImbdLogo";
+import RottenLogo from "./RottenLogo";
 
 const MainPart = () => {
   const apiKey =
@@ -27,14 +26,16 @@ const MainPart = () => {
 
   result();
   return (
-    <div className="main-part">
-      <h1 className="main-part-h1">
-        The Last Voyage <span className='span'>of the Demeter</span>
-      </h1>
-      <ImbdLogo />
-      <RottenLogo />
-      <Details />
-      <Button />
+    <div>
+      <div className="main-part">
+        <h1 className="main-part-h1">
+          The Last Voyage <span className="span">of the Demeter</span>
+        </h1>
+        <ImbdLogo />
+        <RottenLogo />
+        <Details />
+        <Button />
+      </div>
     </div>
   );
 };
